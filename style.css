@@ -12,12 +12,17 @@ body{
     padding: 30px;                            ;
 }
 
+.titulo-principal {
+
+    padding-left: 20px;
+}
+
 em strong {
 
     color: red;
 }
 
-h2 {
+.texto-centralizado {
 
     text-align: center;
 }
