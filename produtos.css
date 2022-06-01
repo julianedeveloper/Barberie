@@ -1,0 +1,47 @@
+header {
+
+    background-color: #bbbbbb;
+
+    padding: 20px 0;
+
+}
+
+.box {
+
+    position: relative;
+
+    width: 940px;
+
+    margin:  0px auto;
+}
+
+nav {
+
+    position: absolute;
+
+    top: 110px;
+
+    right: 0px;
+
+    
+}
+
+nav li { 
+
+    display: inline;
+
+    margin: 0 0 0 15px;
+}
+
+nav a {
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    color: #000000;
+
+    font-weight: bold;
+
+    word-spacing: ;
+}

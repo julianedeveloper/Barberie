@@ -7,6 +7,8 @@
 
         <title> Products - No Shave Barberie </title>
 
+        <link rel="stylesheet" href="reset.css"> <!--the order it's truly important here, because, if reset.css comes first, will exclude all the next css file-->
+
         <link rel="stylesheet" href="produtos.css">
 
     </head>
@@ -15,18 +17,24 @@
 
         <header>
 
-            <h1>
+            <div class="box">
 
-                <img src="images/logo.png" alt="logo barberie and alura">
+                <h1>
 
-            </h1>
+                    <img src="images/logo.png" alt="logo barberie and alura">
+                </h1>
 
-            <ul>
+                <nav>
 
-                <li> Home </li>
-                <li> Products </li>
-                <li> Phones </li>
-            </ul>
+                    <ul class="menu-navigation">
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="produtos.html">Products</a> </li>
+                        <li> <a href="">Phones </a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
 
         </header>
         
