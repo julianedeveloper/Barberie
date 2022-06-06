@@ -43,5 +43,80 @@ nav a {
 
     font-weight: bold;
 
-    word-spacing: ;
+}
+
+nav a:hover {
+
+    color: #C78C19;
+
+    text-decoration: underline;
+}
+
+
+.products {
+
+    width: 940px;
+
+    margin: 0 auto;
+
+    padding: 50px 0;
+
+}
+.products li {
+
+    display: inline-block;
+    
+    text-align: center;
+
+    width: 30%;
+
+    vertical-align: top;
+
+    margin: 0 1.5%;    
+
+    padding: 30px 20px;
+
+    box-sizing: border-box;
+
+    border: 2px solid black;
+
+    border-radius: 13px;
+
+}
+
+.products li:hover {
+
+    border: 2px solid #C78C19;
+}
+
+.products li:active {
+
+    border-color: #088C19;    
+}
+
+.products li:hover h2 {
+    
+    font-size: 34px;
+}
+
+.products h2{
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+
+.coust-product {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin: 10px 0 0;
+}
+
+.product-description { 
+
+    font-size: 18px;
 }
