@@ -120,3 +120,21 @@ nav a:hover {
 
     font-size: 18px;
 }
+
+footer {
+
+    text-align: center;
+
+    background: url(images/bg.jpg);
+
+    padding: 40px 0;
+}
+
+footer > p {
+
+    color: white;
+
+    font-size: 13px;
+
+    margin: 20px 0 0;
+}

@@ -1,3 +1,10 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+}
+
 body{
 
     background-color: white;
@@ -5,39 +12,92 @@ body{
     text-align: center;
 }
 
+header {
+
+    background-color: #bbbbbb;
+
+    padding: 20px 0;
+
+}
+
+.box {
+
+    position: relative;
+
+    width: 940px;
+
+    margin:  0px auto;
+}
+
+
+h1 {
+
+    text-align: left;
+}
+
+nav {
+
+    position: absolute;
+
+    top: 110px;
+
+    right: 0px;
+
+    
+}
+
+nav li { 
+
+    display: inline;
+
+    margin: 0 0 0 15px;
+}
+
+nav a {
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    color: #000000;
+
+    font-weight: bold;
+
+}
+
+nav a:hover {
+
+    color: #C78C19;
+
+    text-decoration: underline;
+}
+
+.menu-navigation{
+
+    display: inline;
+
+    margin: auto;
+}
+
 .principal {
 
     background-color: gray;
     
-    padding: 30px;                            ;
-}
-
-.titulo-principal {
-
-    padding-left: 20px;
+    padding: 50px;                            
 }
 
 em strong {
 
-    color: red;
+    color: rgb(85, 7, 7);
 }
 
 .texto-centralizado {
 
     text-align: center;
+
+    margin-top: 0;
 }
 
-ul {
-
-    display: inline-block;
-
-    vertical-align: top;
-
-    width: 20%;
-
-    margin-right: 15%;
-
-}
 
 #missao { 
      
@@ -53,19 +113,50 @@ ul {
 .itens { 
 
     font-style: italic;
+
 }
 
 .beneficios { 
 
-    background-color: white;
+    display: inline;
 
     padding: 20px;
 
+    height: 20%;
+
+    margin: 15px;
+
+}
+
+ul {
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: 20%;
+
+    margin-right: 15%;
 }
 
 .imagem-beneficios {
 
-    width: 50%;
+    width: 45%;
 
 }
 
+footer {
+
+    background: url(images/bg.jpg);
+
+    height: 30%;
+
+    padding: 40px;
+}
+
+footer > p {
+
+    color: white;
+
+    font-size: 13px;
+}
