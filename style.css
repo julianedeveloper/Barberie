@@ -1,15 +1,8 @@
 * {
 
-    margin: 0;
+    margin: 0px;
 
-    padding: 0;
-}
-
-body{
-
-    background-color: white;
-
-    text-align: center;
+    padding: 0px;
 }
 
 header {
@@ -27,12 +20,6 @@ header {
     width: 940px;
 
     margin:  0px auto;
-}
-
-
-h1 {
-
-    text-align: left;
 }
 
 nav {
@@ -72,86 +59,82 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.menu-navigation{
 
-    display: inline;
+.products {
 
-    margin: auto;
-}
+    width: 940px;
 
-.principal {
+    margin: 0 auto;
 
-    background-color: gray;
-    
-    padding: 50px;                            
-}
-
-em strong {
-
-    color: rgb(85, 7, 7);
-}
-
-.texto-centralizado {
-
-    text-align: center;
-
-    margin-top: 0;
-}
-
-
-#missao { 
-     
-    font-size: 20px;
+    padding: 50px 0;
 
 }
-
-#banner {
-
-    width: 100%;
-}
-
-.itens { 
-
-    font-style: italic;
-
-}
-
-.beneficios { 
-
-    display: inline;
-
-    padding: 20px;
-
-    height: 20%;
-
-    margin: 15px;
-
-}
-
-ul {
+.products li {
 
     display: inline-block;
+    
+    text-align: center;
+
+    width: 30%;
 
     vertical-align: top;
 
-    width: 20%;
+    margin: 0 1.5%;    
 
-    margin-right: 15%;
+    padding: 30px 20px;
+
+    box-sizing: border-box;
+
+    border: 2px solid black;
+
+    border-radius: 13px;
+
 }
 
-.imagem-beneficios {
+.products li:hover {
 
-    width: 45%;
+    border: 2px solid #C78C19;
+}
 
+.products li:active {
+
+    border-color: #088C19;    
+}
+
+.products li:hover h2 {
+    
+    font-size: 34px;
+}
+
+.products h2{
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+
+.coust-product {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin: 10px 0 0;
+}
+
+.product-description { 
+
+    font-size: 18px;
 }
 
 footer {
 
+    text-align: center;
+
     background: url(images/bg.jpg);
 
-    height: 30%;
-
-    padding: 40px;
+    padding: 40px 0;
 }
 
 footer > p {
@@ -159,4 +142,55 @@ footer > p {
     color: white;
 
     font-size: 13px;
+
+    margin: 20px 0 0;
 }
+
+/*Contacts Page Style from here*/
+
+main {
+
+    width: 940px;
+
+    margin: 0px auto;
+
+}
+
+form {
+
+    margin: 40px 0;
+
+}
+
+form label, p {
+
+    display: block;
+
+    font-family: sans-serif;
+
+    font-weight: bold;
+
+    font-size: 13px;
+
+    margin: 5px 0 10px; /*top, right, bottom had values but the left doesn't.*/
+
+}
+
+.input-standard {
+
+    display: block;
+
+    margin: 0 0 20px;
+
+    padding: 10px 25px; /*top and down AND right and left*/
+
+    width: 50%;
+
+}
+
+.checkbox {
+
+    margin: 20px 0;
+    
+}
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html> <!--diz qual versão estou usando do html-->
+
+<html>
+
+    <head> <!--informações pra o navegador-->
+        <meta charset="UTF-8"> <!--O "DICIONÁRIO" que vai manter as palavraas e caracteres e toda escrita, adequada a língua.-->
+
+        <title> Contacts - No Shave Barberie </title>
+
+        <link rel="stylesheet" href="style.css"> <!--the order it's truly important here, because, if reset.css comes first, will exclude all the next css file-->
+
+    </head>
+
+    <body> <!--informações de conteúdo a ser exibido pra o user-->
+
+        <header>
+
+            <div class="box">
+
+                <h1>
+
+                    <img src="images/logo.png" alt="logo barberie and alura">
+                </h1>
+
+                <nav>
+
+                    <ul class="menu-navigation">
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="produtos.html">Products</a> </li>
+                        <li> <a href="contatos.html"> Contacts </a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </header>
+        
+        <main>
+            
+            <form action="">
+
+                <label for="fullname"> Full Name: </label>
+
+                <input type="text" id="fullname" class="input-standard">
+
+                <label for="email"> E-mail: </label>
+
+                <input type="text" id="email" class="input-standard">
+
+                <label for="phone"> Phone: </label>
+
+                <input type="text" id="phone" class="input-standard">
+
+                <label for="message"> Message: </label>
+
+                <textarea name="" id="message" cols="60" rows="10" class="input-standard" ></textarea>
+
+                <div>
+
+                    <p>How you prefer be contacted?</p>
+
+                    <label for="radio-email"> <input type="radio" name="contact" value="email" id="radio-email"> E-mail </label>
+
+                    <label for="radio-phone"> <input type="radio" name="contact" value="email" id="radio-phone"> Phone </label>  
+
+                    <label for="radio-whatsapp"> <input type="radio" name="contact" value="whatsapp" id="radio-whatsapp"> What's app </label> 
+                    
+                </div>
+
+                <div>
+
+                    <p> Choose the best time to be served: </p>
+
+                    <select name="" id="">
+
+                        <option value="">Morning</option>
+
+                        <option value="">Afternoon</option>
+
+                        <option value="">Night</option>
+
+                    </select>
+                    
+                </div>
+
+                <label> <input type="checkbox" class="checkbox"> Would you enjoy to receive our e-mails? </label>
+
+                <input type="submit" value="to send form ">
+
+            </form>
+
+        </main>
+
+        <footer>
+
+            <img src="images/logo-branco.png" alt="">
+
+            <p> &copy; Copyright No Shave Barberie - 2019 </p>
+
+        </footer>
+
+
+        
+    </body>
+
+</html>
