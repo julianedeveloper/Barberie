@@ -13,6 +13,7 @@ header {
 
 }
 
+
 .box {
 
     position: relative;
@@ -162,7 +163,7 @@ form {
 
 }
 
-form label, p {
+form label, legend {
 
     display: block;
 
@@ -192,5 +193,67 @@ form label, p {
 
     margin: 20px 0;
     
+}
+
+fieldset {
+
+    border: none;
+}
+
+#submit {
+
+    width: 40%;
+
+    padding: 15px 0;
+
+    background: orange;
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    transition: 1s all;
+
+    cursor: pointer;
+}
+
+#submit:hover {
+
+    background: rgb(195, 108, 2);
+
+    transform: scale(1) rotate(5deg);
+}
+
+table {
+
+    font-family: sans-serif;
+
+    margin: 20px 0 40px;
+}
+
+thead {
+
+    background: rgb(40, 39, 39);
+
+    color: white;
+
+    font-size: 18px;
+
+}
+
+td, th {
+
+    border: 1px solid #000000;
+
+    padding: 15px 8px;
+
+    width: 15%;
+
 }
 

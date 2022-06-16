@@ -19,7 +19,7 @@
 
                 <h1>
 
-                    <img src="images/logo.png" alt="logo barberie and alura">
+                    <img src="images/logo.png" alt="logo no shave barberie and alura">
                 </h1>
 
                 <nav>
@@ -42,35 +42,35 @@
 
                 <label for="fullname"> Full Name: </label>
 
-                <input type="text" id="fullname" class="input-standard">
+                <input type="text" id="fullname" class="input-standard" required>
 
                 <label for="email"> E-mail: </label>
 
-                <input type="text" id="email" class="input-standard">
+                <input type="email" id="email" class="input-standard" required placeholder="youremail@example.com">
 
                 <label for="phone"> Phone: </label>
 
-                <input type="text" id="phone" class="input-standard">
+                <input type="tel" id="phone" class="input-standard" required placeholder="(xx) xxxxxx - xxxx">
 
                 <label for="message"> Message: </label>
 
                 <textarea name="" id="message" cols="60" rows="10" class="input-standard" ></textarea>
 
-                <div>
+                <fieldset>
 
-                    <p>How you prefer be contacted?</p>
+                    <legend>How you prefer be contacted?</legend>
 
                     <label for="radio-email"> <input type="radio" name="contact" value="email" id="radio-email"> E-mail </label>
 
                     <label for="radio-phone"> <input type="radio" name="contact" value="email" id="radio-phone"> Phone </label>  
 
-                    <label for="radio-whatsapp"> <input type="radio" name="contact" value="whatsapp" id="radio-whatsapp"> What's app </label> 
+                    <label for="radio-whatsapp"> <input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked> What's app </label> 
                     
-                </div>
+                </fieldset>
 
-                <div>
+                <fieldset>
 
-                    <p> Choose the best time to be served: </p>
+                    <legend> Choose the best time to be served: </legend>
 
                     <select name="" id="">
 
@@ -82,19 +82,63 @@
 
                     </select>
                     
-                </div>
+                </fieldset>
 
-                <label> <input type="checkbox" class="checkbox"> Would you enjoy to receive our e-mails? </label>
+                <label> <input type="checkbox" class="checkbox" checked> Would you enjoy to receive our e-mails? </label>
 
-                <input type="submit" value="to send form ">
+                <input type="submit" value="to send form" id="submit">
 
             </form>
 
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Day</td>
+
+                        <th>Time</td>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>Monday</td>
+
+                        <td>8 a.m / 8 p.m</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td> Wednesday </td>
+
+                        <td> 7 a.m / 5 p.m </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td> Friday </td>
+
+                        <td> 7 a.m / 9 p.m </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+            
         </main>
 
         <footer>
 
-            <img src="images/logo-branco.png" alt="">
+            <img src="images/logo-branco.png" alt="logo no shave barberie and alura">
 
             <p> &copy; Copyright No Shave Barberie - 2019 </p>
 

@@ -91,11 +91,37 @@ em strong {
     color: rgb(85, 7, 7);
 }
 
-.texto-centralizado {
+.titulo-principal {
 
     text-align: center;
 
-    margin-top: 0;
+    font-size: 2em;
+
+    margin: 0  0 1em;
+
+}
+
+.principal p {
+
+    margin: 1em;
+}
+
+.principal strong {
+
+    font-weight: bold;
+
+}
+
+.principal em {
+
+    font-style: italic;
+}
+
+.brushes {
+
+    width: 150px;
+
+    position: absolute;
 }
 
 
@@ -105,7 +131,7 @@ em strong {
 
 }
 
-#banner {
+.banner {
 
     width: 100%;
 }
@@ -141,7 +167,7 @@ ul {
 
 .imagem-beneficios {
 
-    width: 45%;
+    width: 60%;
 
 }
 
