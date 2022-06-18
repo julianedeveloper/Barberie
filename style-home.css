@@ -110,6 +110,8 @@ em strong {
 
     font-size: 2em;
 
+    font-weight: bolder;
+
     margin: 0  0 1em;
 
 }
@@ -139,7 +141,7 @@ em strong {
 
 .brushes {
 
-    width: 120px;
+    width: calc(25% - 26px);
 
     float: left;
 
@@ -224,12 +226,23 @@ em strong {
 .imagem-beneficios {
     
     width: 55%;
+
+    opacity: 0.3;
+
+    transition: 2s;
+
+    box-shadow: 10px 10px 10px black;
     
+}
+
+.imagem-beneficios:hover {
+
+    opacity: 1;
 }
 
 .video {
     
-    width: 560px;
+    width: 100%;
     
     margin: 2em auto;
 }
@@ -248,4 +261,33 @@ footer > p {
     color: white;
 
     font-size: 13px;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .box, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+
+        width:auto;
+    }
+
+    h1 {
+
+        text-align: center;
+    }
+
+    nav {
+
+        position: static;
+
+        text-align: center;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+
+        width: 100%;
+
+        text-align: center;
+    }
+    
 }
