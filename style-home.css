@@ -9,7 +9,11 @@ body{
 
     background-color: white;
 
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: bold;
+
+
 }
 
 header {
@@ -33,6 +37,11 @@ header {
 h1 {
 
     text-align: left;
+}
+
+.banner {
+
+    width: 100%;
 }
 
 nav {
@@ -83,7 +92,11 @@ nav a:hover {
 
     background-color: gray;
     
-    padding: 50px;                            
+    padding: 50px;              
+    
+    width: 940px;
+
+    margin: 0 auto;
 }
 
 em strong {
@@ -99,6 +112,13 @@ em strong {
 
     margin: 0  0 1em;
 
+}
+
+.principal{
+
+    padding: 3em 0;
+    
+    background-color: #fefefe;
 }
 
 .principal p {
@@ -119,63 +139,106 @@ em strong {
 
 .brushes {
 
-    width: 150px;
+    width: 120px;
 
-    position: absolute;
+    float: left;
+
+    margin: 0 20px 20px 0;
 }
-
 
 #missao { 
      
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
-.banner {
+.mapa-conteudo {
 
-    width: 100%;
-}
+    width: 940px;
 
-.itens { 
+    margin: 0 auto;
 
-    font-style: italic;
 
 }
 
-.beneficios { 
+.map {
 
-    display: inline;
+    padding: 3em 0;
 
-    padding: 20px;
-
-    height: 20%;
-
-    margin: 15px;
+    background: linear-gradient(#fefefe, #888888);
 
 }
 
-ul {
+.map p {
+
+    margin: 0 0 2em;
+
+    text-align: center;
+}
+
+
+.beneficios {
+
+    padding: 3em 0;
+
+    background-color: #888888;
+}
+
+.conteudo-beneficios {
+
+    width: 640px;
+
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+
+    width: 40%;
 
     display: inline-block;
 
     vertical-align: top;
+}
 
-    width: 20%;
+.itens { 
 
-    margin-right: 15%;
+    line-height: 1.5;
+
+}
+
+.itens:first-child {
+
+    font-family: sans-serif;
+
+    font-weight: 800;
+
+    color: #000000;
+
+}
+
+.itens:before{
+
+    content: "🟊";
 }
 
 .imagem-beneficios {
+    
+    width: 55%;
+    
+}
 
-    width: 60%;
-
+.video {
+    
+    width: 560px;
+    
+    margin: 2em auto;
 }
 
 footer {
 
-    background: url(images/bg.jpg);
+    text-align: center;
 
-    height: 30%;
+    background: url(images/bg.jpg);
 
     padding: 40px;
 }

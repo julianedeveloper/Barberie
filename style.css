@@ -5,6 +5,13 @@
     padding: 0px;
 }
 
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: bolder;
+}
+
 header {
 
     background-color: #bbbbbb;
@@ -30,6 +37,8 @@ nav {
     top: 110px;
 
     right: 0px;
+
+    font-weight: bolder;
 
     
 }
