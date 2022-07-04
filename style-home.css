@@ -266,6 +266,12 @@ footer > p {
 
 @media screen and (max-width:480px) {
 
+    * {
+
+        margin: 0;
+    }
+
+
     .box, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 
         width:auto;
@@ -290,4 +296,88 @@ footer > p {
         text-align: center;
     }
     
+    .titulo-principal {
+
+        text-align: center;
+
+        font-weight: bolder;
+
+        font-size: 25px;
+    }
+
+    .principal > p {
+
+        text-align: justify;
+
+        width: 70%;
+
+        margin: 10px auto;
+    }
+
+    .brushes {
+
+        width: 90%;
+    }
+
+    .mapa-conteudo {
+
+        width: 95%;
+    }
+
+    .map {
+
+        margin: 0 auto;
+    }
+    
+    .map > p{
+
+        text-align: center;
+
+    }
+
+    .beneficios {
+
+        margin-top: 2px;
+
+        padding: 5px;
+
+    }
+
+    .titulo-principal {
+
+        text-align: center;
+
+        font-size: 40px;
+    }
+
+    .lista-beneficios {
+
+        text-align: justify;
+
+        margin-left: 30px;
+    }
+
+    .imagem-beneficios {
+
+        width:  100%;
+
+        margin-top: 10px;
+
+    }
+
+    .video {
+
+        width: 100%;
+
+        align-content: center;
+
+        margin-bottom: 0;
+    }
+
+    footer {
+
+        margin-top: 2px;
+
+        padding: 0px;
+    }
 }

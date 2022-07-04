@@ -266,3 +266,27 @@ td, th {
 
 }
 
+@media screen and (max-width:480px) {
+
+    .box {
+
+        display: inline;
+    }
+
+
+    h1{
+
+        text-align: center;
+
+    }
+
+    nav {
+
+        position: static;
+
+        text-align: center;
+    }
+
+    
+}
+
