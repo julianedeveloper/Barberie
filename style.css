@@ -7,12 +7,22 @@
 
 body {
 
+    display: flex;
+
     font-family: 'Montserrat', sans-serif;
 
     font-weight: bolder;
 }
 
 header {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    width: 100%;
 
     background-color: #bbbbbb;
 
@@ -23,20 +33,26 @@ header {
 
 .box {
 
-    position: relative;
+    
+    display: flex;
 
-    width: 940px;
+    flex-direction: row;
 
-    margin:  0px auto;
+    width: 30%;
+
 }
 
 nav {
 
-    position: absolute;
+    display: flex;
 
-    top: 110px;
+    flex-direction: row;
 
-    right: 0px;
+    justify-content: center;
+
+    align-items: center;
+
+    width: 30%;
 
     font-weight: bolder;
 
@@ -68,7 +84,6 @@ nav a:hover {
 
     text-decoration: underline;
 }
-
 
 .products {
 
@@ -186,6 +201,7 @@ form label, legend {
 
 }
 
+
 .input-standard {
 
     display: block;
@@ -264,15 +280,26 @@ td, th {
 
     width: 15%;
 
-}
+} 
 
-@media screen and (max-width:480px) {
+@media screen and (min-width:480px) {
+
+    
+
+    header {
+
+        flex-direction: column;
+        align-items: center;
+        
+    }
 
     .box {
 
-        display: inline;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
-
 
     h1{
 
@@ -287,6 +314,9 @@ td, th {
         text-align: center;
     }
 
-    
-}
+    }
+
+   
+
+
 
