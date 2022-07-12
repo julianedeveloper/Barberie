@@ -1,173 +1,102 @@
 * {
-
     margin: 0px;
-
     padding: 0px;
 }
-
 body {
-
-    display: flex;
-
     font-family: 'Montserrat', sans-serif;
-
     font-weight: bolder;
 }
-
 header {
-
     display: flex;
-
     flex-direction: row;
-
     justify-content: space-between;
-
     width: 100%;
-
     background-color: #bbbbbb;
-
     padding: 20px 0;
-
 }
-
-
+container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
 .box {
-
-    
     display: flex;
-
     flex-direction: row;
-
     width: 30%;
-
 }
-
 nav {
-
     display: flex;
-
     flex-direction: row;
-
     justify-content: center;
-
     align-items: center;
-
     width: 30%;
-
     font-weight: bolder;
-
-    
 }
-
 nav li { 
-
     display: inline;
-
     margin: 0 0 0 15px;
 }
-
 nav a {
-
     text-transform: uppercase;
-
     text-decoration: none;
-
     color: #000000;
-
     font-weight: bold;
-
 }
-
 nav a:hover {
-
     color: #C78C19;
-
     text-decoration: underline;
 }
-
 .products {
-
     width: 940px;
-
     margin: 0 auto;
-
     padding: 50px 0;
-
 }
 .products li {
-
     display: inline-block;
-    
     text-align: center;
-
     width: 30%;
-
     vertical-align: top;
-
     margin: 0 1.5%;    
-
     padding: 30px 20px;
-
     box-sizing: border-box;
-
     border: 2px solid black;
-
     border-radius: 13px;
-
 }
-
 .products li:hover {
-
     border: 2px solid #C78C19;
 }
-
 .products li:active {
-
     border-color: #088C19;    
 }
-
 .products li:hover h2 {
-    
     font-size: 34px;
 }
-
 .products h2{
-
     font-size: 20px;
-
     font-weight: bold;
-}
-
-
+}   
 .coust-product {
-
     font-size: 22px;
-
     font-weight: bold;
-
     margin: 10px 0 0;
 }
 
 .product-description { 
-
     font-size: 18px;
 }
 
 footer {
-
     text-align: center;
-
     background: url(images/bg.jpg);
-
     padding: 40px 0;
 }
 
 footer > p {
-
     color: white;
-
     font-size: 13px;
-
     margin: 20px 0 0;
 }
 
@@ -263,60 +192,43 @@ table {
 }
 
 thead {
-
     background: rgb(40, 39, 39);
-
     color: white;
-
     font-size: 18px;
-
 }
 
 td, th {
-
     border: 1px solid #000000;
-
     padding: 15px 8px;
-
     width: 15%;
-
 } 
 
-@media screen and (min-width:480px) {
-
-    
-
-    header {
-
-        flex-direction: column;
-        align-items: center;
-        
+@media screen and (max-width: 980px) {
+    .container-header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-
-    .box {
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
+    .box-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
-
-    h1{
-
-        text-align: center;
-
+    .menu-navigation {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
-
-    nav {
-
-        position: static;
-
-        text-align: center;
+    .menu-wrapper li {
+      margin: 5px;
     }
-
+    .products {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-
-   
-
-
-
+    .products li {
+      margin: 10px 1.5%;
+      width: 60%;
+    }
+  }
