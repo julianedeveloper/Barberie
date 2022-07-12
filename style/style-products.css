@@ -3,6 +3,7 @@
     padding: 0px;
 }
 body {
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
@@ -18,7 +19,6 @@ container-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
     background-color: #bbbbbb;
     padding: 20px 0;
 }
@@ -26,18 +26,19 @@ container-header {
     display: flex;
     flex-direction: row;
     width: 30%;
+    margin: 20px;
 }
 nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 30%;
     font-weight: bolder;
+    margin-right: 40px;
 }
 nav li { 
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 25px;
 }
 nav a {
     text-transform: uppercase;
@@ -100,109 +101,6 @@ footer > p {
     margin: 20px 0 0;
 }
 
-/*Contacts Page Style from here*/
-
-main {
-
-    width: 940px;
-
-    margin: 0px auto;
-
-}
-
-form {
-
-    margin: 40px 0;
-
-}
-
-form label, legend {
-
-    display: block;
-
-    font-family: sans-serif;
-
-    font-weight: bold;
-
-    font-size: 13px;
-
-    margin: 5px 0 10px; /*top, right, bottom had values but the left doesn't.*/
-
-}
-
-
-.input-standard {
-
-    display: block;
-
-    margin: 0 0 20px;
-
-    padding: 10px 25px; /*top and down AND right and left*/
-
-    width: 50%;
-
-}
-
-.checkbox {
-
-    margin: 20px 0;
-    
-}
-
-fieldset {
-
-    border: none;
-}
-
-#submit {
-
-    width: 40%;
-
-    padding: 15px 0;
-
-    background: orange;
-
-    color: white;
-
-    font-weight: bold;
-
-    font-size: 18px;
-
-    border: none;
-
-    border-radius: 5px;
-
-    transition: 1s all;
-
-    cursor: pointer;
-}
-
-#submit:hover {
-
-    background: rgb(195, 108, 2);
-
-    transform: scale(1) rotate(5deg);
-}
-
-table {
-
-    font-family: sans-serif;
-
-    margin: 20px 0 40px;
-}
-
-thead {
-    background: rgb(40, 39, 39);
-    color: white;
-    font-size: 18px;
-}
-
-td, th {
-    border: 1px solid #000000;
-    padding: 15px 8px;
-    width: 15%;
-} 
-
 @media screen and (max-width: 980px) {
     .container-header {
       flex-direction: column;
@@ -223,12 +121,15 @@ td, th {
       margin: 5px;
     }
     .products {
+      margin: 0;
+      padding: 0;
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: auto;
     }
     .products li {
       margin: 10px 1.5%;
-      width: 60%;
+      width: 50%;
     }
   }
