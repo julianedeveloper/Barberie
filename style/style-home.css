@@ -1,383 +1,211 @@
 * {
-
     margin: 0;
-
     padding: 0;
 }
-
 body{
-
     background-color: white;
-
     font-family: 'Montserrat', sans-serif;
-
     font-weight: bold;
-
-
 }
-
 header {
-
     background-color: #bbbbbb;
-
     padding: 20px 0;
-
 }
-
 .box {
-
     position: relative;
-
     width: 940px;
-
     margin:  0px auto;
 }
-
-
 h1 {
-
     text-align: left;
 }
-
 .banner {
-
     width: 100%;
 }
-
 nav {
-
     position: absolute;
-
     top: 110px;
-
     right: 0px;
-
-    
 }
-
 nav li { 
-
     display: inline;
-
     margin: 0 0 0 15px;
 }
-
 nav a {
-
     text-transform: uppercase;
-
     text-decoration: none;
-
     color: #000000;
-
     font-weight: bold;
-
 }
-
 nav a:hover {
-
     color: #C78C19;
-
     text-decoration: underline;
 }
-
 .menu-navigation{
-
     display: inline;
-
     margin: auto;
 }
-
 .principal {
-
     background-color: gray;
-    
     padding: 50px;              
-    
     width: 940px;
-
     margin: 0 auto;
 }
-
 em strong {
-
     color: rgb(85, 7, 7);
 }
-
 .titulo-principal {
-
     text-align: center;
-
     font-size: 2em;
-
     font-weight: bolder;
-
     margin: 0  0 1em;
-
 }
-
 .principal{
-
     padding: 3em 0;
-    
     background-color: #fefefe;
 }
-
 .principal p {
-
     margin: 1em;
 }
-
 .principal strong {
-
     font-weight: bold;
-
 }
-
 .principal em {
-
     font-style: italic;
 }
-
 .brushes {
-
     width: calc(25% - 26px);
-
     float: left;
-
     margin: 0 20px 20px 0;
 }
-
-#missao { 
-     
+#missao {     
     font-size: 18px;
-
 }
-
 .mapa-conteudo {
-
-    width: 940px;
-
+    width: 100%;
     margin: 0 auto;
-
-
 }
-
 .map {
-
     padding: 3em 0;
-
     background: linear-gradient(#fefefe, #888888);
-
 }
-
 .map p {
-
     margin: 0 0 2em;
-
     text-align: center;
 }
-
-
 .beneficios {
-
     padding: 3em 0;
-
     background-color: #888888;
 }
-
 .conteudo-beneficios {
-
     width: 640px;
-
     margin: 0 auto;
 }
-
 .lista-beneficios {
-
     width: 40%;
-
     display: inline-block;
-
     vertical-align: top;
 }
-
 .itens { 
-
     line-height: 1.5;
-
 }
-
 .itens:first-child {
-
     font-family: sans-serif;
-
     font-weight: 800;
-
     color: #000000;
-
 }
-
 .itens:before{
-
     content: "🟊";
 }
-
-.imagem-beneficios {
-    
+.imagem-beneficios {   
     width: 55%;
-
     opacity: 0.3;
-
     transition: 2s;
-
     box-shadow: 10px 10px 10px black;
-    
 }
-
 .imagem-beneficios:hover {
-
     opacity: 1;
 }
-
-.video {
-    
-    width: 100%;
-    
-    margin: 2em auto;
+.video {   
+    width: auto;
+    margin: 20px auto
 }
-
 footer {
-
     text-align: center;
-
     background: url(images/bg.jpg);
-
+    background-repeat: repeat;
+    background-color: #191717;
     padding: 40px;
 }
-
 footer > p {
-
     color: white;
-
     font-size: 13px;
 }
-
-
-@media screen and (max-width:480px) {
-
+@media screen and (max-width:980px) {
     * {
-
         margin: 0;
     }
-
-
     .box, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-
         width:auto;
     }
-
     h1 {
-
         text-align: center;
     }
-
     nav {
-
         position: static;
-
         text-align: center;
     }
-
     .lista-beneficios, .imagem-beneficios {
-
-        width: 100%;
-
+        width: 90%;
         text-align: center;
     }
-    
     .titulo-principal {
-
         text-align: center;
-
         font-weight: bolder;
-
         font-size: 25px;
     }
-
     .principal > p {
-
         text-align: justify;
-
         width: 70%;
-
         margin: 10px auto;
     }
-
     .brushes {
-
-        width: 90%;
+        width: 100%;
+        margin: 0 20px 20px 0;
     }
-
     .mapa-conteudo {
-
         width: 95%;
     }
-
     .map {
-
+        width: 100%;
         margin: 0 auto;
     }
-    
     .map > p{
-
         text-align: center;
-
     }
-
     .beneficios {
-
-        margin-top: 2px;
-
         padding: 5px;
-
     }
-
     .titulo-principal {
-
         text-align: center;
-
         font-size: 40px;
     }
-
     .lista-beneficios {
-
         text-align: justify;
-
-        margin-left: 30px;
+        margin-left: 50px;
+        list-style-type: none;
     }
-
     .imagem-beneficios {
-
         width:  100%;
-
         margin-top: 10px;
-
     }
-
     .video {
-
         width: 100%;
-
         align-content: center;
-
         margin-bottom: 0;
     }
-
     footer {
-
         margin-top: 2px;
-
         padding: 0px;
     }
 }

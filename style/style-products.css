@@ -92,6 +92,8 @@ nav a:hover {
 footer {
     text-align: center;
     background: url(images/bg.jpg);
+    background-repeat: repeat;
+    background-color: #191717;
     padding: 40px 0;
 }
 
