@@ -132,10 +132,9 @@ em strong {
 }
 footer {
     text-align: center;
-    background: url(images/bg.jpg);
-    background-repeat: repeat;
-    background-color: #191717;
+    background-image: url(images/bg.jpg);
     padding: 40px;
+    margin-top: 4px;
 }
 footer > p {
     color: white;
