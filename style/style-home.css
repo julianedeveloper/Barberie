@@ -130,13 +130,15 @@ em strong {
     width: auto;
     margin: 20px auto
 }
-footer {
+footer{
     text-align: center;
-    background-image: url(images/bg.jpg);
+    background-color: #000000;
+    background-image: url(/images/bg.jpg);
+    background-repeat: repeat;
     padding: 40px;
-    margin-top: 4px;
 }
 footer > p {
+    text-align: center;
     color: white;
     font-size: 13px;
 }
@@ -203,8 +205,5 @@ footer > p {
         align-content: center;
         margin-bottom: 0;
     }
-    footer {
-        margin-top: 2px;
-        padding: 0px;
-    }
+    
 }
